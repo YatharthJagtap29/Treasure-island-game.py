@@ -1,0 +1,34 @@
+print('''  ____...------------...____
+               _.-"` /o/__ ____ __ __  __ \o\_`"-._
+             .'     / /                    \ \     '.
+             |=====/o/======================\o\=====|
+             |____/_/________..____..________\_\____|
+             /   _/ \_     <_o#\__/#o_>     _/ \_   \
+             \_________\####/_________/
+              |===\!/========================\!/===|
+              |   |=|          .---.         |=|   |
+              |===|o|=========/     \========|o|===|
+              |   | |         \() ()/        | |   |
+              |===|o|======{'-.) A (.-'}=====|o|===|
+              | __/ \__     '-.-'    __/ \__ |
+              |==== .'.'^'.'.====|
+           |  _\o/   __  {.' __  '.} _   _\o/  _|
+              `""""-""""""""""""""""""""""""""-""""`''')
+
+print('Welcome to treasure island ')
+print('Your mission us to find the treasure: ')
+x=input(('Left or right?\n'))
+if x=='right':
+    print('Game over! Better luck next time')
+else:
+    y=input(('swim or wait?\n'))
+    if y=='swim':
+        print('Game over! Better luck next time')
+    else:
+        z=input('Which door? red ,blue or yellow?\n')
+        if z=='red':
+            print('Game over! Better luck next time ')
+        elif z=='blue':
+                print('Game over! Better luck next time')
+        else:
+                print('You won!')
